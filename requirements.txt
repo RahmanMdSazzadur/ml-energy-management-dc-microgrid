@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+xgboost
+torch
+pvlib
+requests
+jupyter
+pytest
+lightgbm
+holidays

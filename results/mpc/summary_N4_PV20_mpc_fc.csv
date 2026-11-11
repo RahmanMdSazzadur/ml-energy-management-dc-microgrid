@@ -1,0 +1,2 @@
+strategy,net_cost_eur,grid_buy_kwh,grid_sell_kwh,curtail_kwh,unserved_kwh,batt_in_kwh,batt_out_kwh,effective_rte,strip_overdue_h,mpc_infeasible,runtime_s
+mpc_fc,8824.137316346418,87248.23472389637,652.8361516869942,0.0,0.0,12403.719249652439,9803.348109696144,0.790355530658342,345.0,0,751.2

@@ -1,0 +1,13 @@
+strategy  net_cost_eur  grid_buy_kwh  grid_sell_kwh  curtail_kwh  unserved_kwh  batt_in_kwh  batt_out_kwh  effective_rte  strip_overdue_h  mpc_infeasible  runtime_s
+    none       8184.84      79796.29       14481.77       196.51           0.0          0.0           0.0            NaN              NaN               0        0.5
+strategy  net_cost_eur  grid_buy_kwh  grid_sell_kwh  curtail_kwh  unserved_kwh  batt_in_kwh  batt_out_kwh  effective_rte  strip_overdue_h  mpc_infeasible  runtime_s
+    rule       8104.65       77924.8       12328.89        56.89           0.0      2382.21       1796.63           0.75              0.0               0        0.5
+strategy  net_cost_eur  grid_buy_kwh  grid_sell_kwh  curtail_kwh  unserved_kwh  batt_in_kwh  batt_out_kwh  effective_rte  strip_overdue_h  mpc_infeasible  runtime_s
+  mpc_pf        7919.5      78405.06       12414.13        17.39           0.0      4514.83        3517.5           0.78             52.0               0      188.9
+strategy  net_cost_eur  grid_buy_kwh  grid_sell_kwh  curtail_kwh  unserved_kwh  batt_in_kwh  batt_out_kwh  effective_rte  strip_overdue_h  mpc_infeasible  runtime_s
+  mpc_fc       7944.34      78883.68       12922.48        17.65           0.0      4236.55       3309.53           0.78             26.0               0      205.8
+strategy  net_cost_eur  grid_buy_kwh  grid_sell_kwh  curtail_kwh  unserved_kwh  batt_in_kwh  batt_out_kwh  effective_rte  strip_overdue_h  mpc_infeasible  runtime_s  saving_vs_none_eur
+    none        8184.8       79796.3        14481.8        196.5           0.0          0.0           0.0            NaN              NaN               0        0.5                 0.0
+    rule        8104.7       77924.8        12328.9         56.9           0.0       2382.2        1796.6            0.8              0.0               0        0.5                80.2
+  mpc_pf        7919.5       78405.1        12414.1         17.4           0.0       4514.8        3517.5            0.8             52.0               0      188.9               265.3
+  mpc_fc        7944.3       78883.7        12922.5         17.7           0.0       4236.5        3309.5            0.8             26.0               0      205.8               240.5

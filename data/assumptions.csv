@@ -1,0 +1,17 @@
+item,value,unit,basis,source
+PV capital cost,1000,EUR/kWp,Finnish turnkey systems 800-1500 EUR/kWp in 2025; lower end for 30-100 kWp commercial roofs,https://1komma5.com/fi/aurinkopaneelit/aurinkopaneelien-hintakehitys/
+PV O&M,15,EUR/kWp/yr,assumption (about 1.5 % of capital per year),assumption
+PV lifetime,25,years,assumption,assumption
+ZBFB installed cost,650,EUR/kWh,BNEF 2023 survey: flow batteries US$701/kWh average outside China (US$444/kWh global); converted at about 0.92 EUR/USD,https://www.energy-storage.news/long-duration-storage-increasingly-competitive-but-unlikely-to-match-li-ions-cost-reductions
+ZBFB installed cost per module,7440,EUR/module,650 EUR/kWh x 11.44 kWh,derived
+ZBFB O&M,1,% of capital/yr,assumption,assumption
+ZBFB lifetime,15,years,assumption; flow batteries 5000-15000 cycles (Sandia),https://www.osti.gov/servlets/purl/1876722
+Converter capital cost,250,EUR/kW,assumption,assumption
+Converter efficiency,96,%,assumption,assumption
+Converter lifetime,15,years,assumption,assumption
+Project lifetime,25,years,assumption,assumption
+Real discount rate,5,%,assumption,assumption
+Electricity tax class I (study years),2.253,c/kWh,2.24 energy tax + 0.013 security of supply; 2.325 from 1.4.2026,https://www.vero.fi/yritykset-ja-yhteisot/tietoa-yritysverotuksesta/valmisteverotus/sahko_ja_eraat_polttoaineet/sahkon_ja_eraiden_polttoaineiden_verota/
+Distribution energy charge,2.50,c/kWh,Representative: Oulu Energia general 2.53 c/kWh VAT 0 (2026); Lappeenranta list not found,https://production.oulunenergia.fi/globalassets/tiedostot/sahkoverkot/oes_hinnasto_01012026.pdf
+Retail margin on spot,0.30,c/kWh,assumption,assumption
+Selling fee on spot,0.30,c/kWh,assumption,assumption

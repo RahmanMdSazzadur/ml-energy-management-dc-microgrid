@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Data and models (large or licence-restricted; keep the scripts that make them)
+data/raw/*
+!data/raw/.gitkeep
+models/*
+!models/.gitkeep
+
+# MATLAB
+*.asv
+*.mex*
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+
+# --- Spot-price data (Energy-Charts, private-use licence): not redistributed ---
+data/raw/spot_price_*.csv
+data/processed/spot_price_hourly.csv
+data/processed/inputs_2019_2023_hourly.csv
+data/homer/grid_*.txt
+data/homer/spot_*.txt
+data/homer/homer_inputs_*_with_timestamps.csv
+homer/*.homer
+# hourly result files contain prices or price-derived costs; regenerate locally
+results/homer/HOMER_hourly_*.csv
+results/validation/*hourly*.csv
+results/forecasting/pred_*
+results/mpc/hourly_*
+__pycache__/
+.pytest_cache/
+
+# open-licence raw data that may be redistributed
+!data/raw/pvgis_lappeenranta_2019_2023_hourly.csv
+!data/raw/fingrid_124_consumption_FI_2019_2023.csv
